@@ -1,0 +1,19 @@
+pt-BR:
+ index: Listagem
+ show: Exibir
+ destroy: Remover
+ edit: Editar
+ new: Novo %{name}
+ listing: Listando %{name}
+ contact:
+   title:
+     zero: Contato
+     one: Contato
+     other: Contatos
+   name: Nome
+   birthday: Nascimento
+ simple_form:
+   labels:
+     contact:
+       name: Nome
+       birthday: Nascimento

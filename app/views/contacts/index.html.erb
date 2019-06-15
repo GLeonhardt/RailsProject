@@ -13,7 +13,7 @@
    <% @contacts.each do |contact| %>
      <tr>
        <td><%= contact.name %></td>
-       <td><%= contact.birthday %></td>
+       <td><%= l contact.birthday, format: :long %></td>
 
  <td>
          <div class="btn-group btn-group-sm" role="group">
